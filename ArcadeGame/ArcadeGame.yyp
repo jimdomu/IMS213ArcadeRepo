@@ -1,10 +1,15 @@
 {
   "resources": [
+    {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"order":0,},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
+    {"id":{"name":"font_score","path":"fonts/font_score/font_score.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -40,7 +45,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "ArcadeGame",
