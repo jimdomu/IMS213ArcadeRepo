@@ -18,3 +18,5 @@ else if(y == 520){
 else if(y ==640){
 	y = 733;	
 }
+
+audio_play_sound(snd_jump, 1, false);

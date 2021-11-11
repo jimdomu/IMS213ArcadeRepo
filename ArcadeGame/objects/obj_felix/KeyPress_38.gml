@@ -18,3 +18,5 @@ else if(y == 420){
 else if(y == 310){
 	y = 190;	
 }
+
+audio_play_sound(snd_jump, 1, false);
