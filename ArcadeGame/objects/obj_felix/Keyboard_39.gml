@@ -1,8 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
- 
- direction = 0;
- speed = 2;
+//Move right
+
+direction = 0;
+speed = travelSpeed * delta_time/1000000;
  
  if (y < 733){
 	if(x>510){

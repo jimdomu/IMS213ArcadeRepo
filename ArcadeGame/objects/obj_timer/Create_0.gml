@@ -1,5 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+globalvar time_left;
+time_left = 25;
 
-global.time_left = 25;
+//setting alarms isn't really optimized for timer. 
+//I set up the timer system in Step.
+/*
 alarm[0] = room_speed * 1;
+*/

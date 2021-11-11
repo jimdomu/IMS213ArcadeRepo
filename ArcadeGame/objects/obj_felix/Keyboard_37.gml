@@ -1,11 +1,12 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Move left
 
 direction = 180;
-speed = 2;
+speed = travelSpeed * delta_time/1000000;
 
-if (y < 733){
-	if(x<220){
+if (y < 733)
+{
+	//Stopping Felix from getting out of the border
+	if(x < 220){
 		speed = 0;
 	}
 }

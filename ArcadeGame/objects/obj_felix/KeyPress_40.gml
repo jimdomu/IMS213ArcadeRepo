@@ -1,8 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Hop down
 
-// y_loc = [180, 300, 410, 530, 630, 720];
-
+/*
 if(y == 190){
 	y = 310;
 }
@@ -18,5 +16,31 @@ else if(y == 520){
 else if(y ==640){
 	y = 733;	
 }
+*/
 
-audio_play_sound(snd_jump, 1, false);
+if (floorNum > 0)
+{
+	floorNum -= 1;
+	
+	//This is for dynamic speed. for now we can use blink
+	/*
+	switch (floorNum)
+	{
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+	}
+	*/
+	
+	//Play effect
+	//sound
+	audio_play_sound(snd_jump, 1, false);
+}
+
