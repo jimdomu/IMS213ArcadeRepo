@@ -1,11 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-direction = 180;
-speed = 2;
-
-if (y < 733){
-	if(x<220){
-		speed = 0;
-	}
-}
+global.time_left--;
+alarm[0] = room_speed * 1;
