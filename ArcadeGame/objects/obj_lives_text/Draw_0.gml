@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // set x position, y position of text
-var xpos = 50;
+var xpos = 40;
 var ypos = room_height - 755;
 // draw the text on the screen
 draw_text(xpos,ypos, "Lives:");
