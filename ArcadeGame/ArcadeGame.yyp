@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"order":0,},
+    {"id":{"name":"snd_glass","path":"sounds/snd_glass/snd_glass.yy",},"order":1,},
     {"id":{"name":"spr_felix","path":"sprites/spr_felix/spr_felix.yy",},"order":3,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},"order":1,},

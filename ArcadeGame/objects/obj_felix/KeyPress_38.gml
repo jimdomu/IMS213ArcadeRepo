@@ -18,29 +18,34 @@ else if(y == 310){
 }
 */
 
+
 //Changing floor with dynamic speed and using floor level array
 if (floorNum < array_length(y_loc)-1)
 {
-	floorNum += 1
-	
-	//This is for dynamic speed. for now we can use blink
-	/*
-	switch (floorNum)
+	// this makes it so Felix can't jump into the air next to the building
+	if (x > 253 && x < 547)
 	{
-		case 1:
-			break;
-		case 2:
-			break;
-		case 3:
-			break;
-		case 4:
-			break;
-		case 5:
-			break;
-	}
-	*/
+		floorNum += 1
 	
-	//Play effect
-	//sound
-	audio_play_sound(snd_jump, 1, false);
+		//This is for dynamic speed. for now we can use blink
+		/*
+		switch (floorNum)
+		{
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				break;
+		}
+		*/
+	
+		//Play effect
+		//sound
+		audio_play_sound(snd_jump, 1, false);
+	}
 }
