@@ -6,7 +6,7 @@ speed = travelSpeed * delta_time/1000000;
 if (y < 733)
 {
 	//Stopping Felix from getting out of the border
-	if(x < 220){
+	if(x < 255){
 		speed = 0;
 	}
 }

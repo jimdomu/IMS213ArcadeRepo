@@ -1,6 +1,3 @@
-//What does this do?
-y = y - 3;
-x = x + 5;
 
 //Normal speed (pixels per second)
 //Realtime speed is calculated in each move keys
@@ -12,7 +9,7 @@ travelSpeed = 350;
 //+- 35
 //Previous val: 
 //y_loc = [720, 630, 530, 410, 300, 180];
-y_loc = [755, 665, 565, 445, 335, 215];
+y_loc = [768, 665, 565, 450, 335, 215];
 
 //keep track of floor. Ground floor = 0
 floorNum = 0;
