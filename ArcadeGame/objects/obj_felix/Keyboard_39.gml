@@ -8,3 +8,5 @@ speed = travelSpeed * delta_time/1000000;
 		speed = 0;
 	}
 }
+
+image_index = 1;

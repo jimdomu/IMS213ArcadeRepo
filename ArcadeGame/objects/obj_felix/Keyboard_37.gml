@@ -10,3 +10,5 @@ if (y < 733)
 		speed = 0;
 	}
 }
+
+image_index = 0;
