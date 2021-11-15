@@ -41,6 +41,6 @@ if (floorNum > 0)
 	
 	//Play effect
 	//sound
-	audio_play_sound(snd_jump, 1, false);
+	audio_play_sound(snd_jump, 2, false);
 }
 
