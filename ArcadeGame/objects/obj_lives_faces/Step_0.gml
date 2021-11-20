@@ -11,5 +11,7 @@ switch (life)
 		break;
 	default:
 		image_index = 3;
+		var endRoomBad = EndRoomLose;
+		room_goto(endRoomBad);
 		break;
 }

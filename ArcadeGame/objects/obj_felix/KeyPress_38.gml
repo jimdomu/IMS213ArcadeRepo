@@ -46,6 +46,6 @@ if (floorNum < array_length(y_loc)-1)
 	
 		//Play effect
 		//sound
-		audio_play_sound(snd_jump, 1, false);
+		audio_play_sound(snd_jump, 2, false);
 	}
 }

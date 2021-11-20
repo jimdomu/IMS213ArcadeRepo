@@ -14,4 +14,5 @@ waitingTillNext = false;
 
 //variables to handle time difference 
 timeTillNext = 0;
-maxTimeNext = 2;
+maxTimeNext = 2.6;
+

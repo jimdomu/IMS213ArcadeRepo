@@ -30,5 +30,9 @@ if (!allFixed)
 }
 else
 {
-	show_message("All done!");
+	//show_message("All done!");
+	if(time_left >= 0){
+		var endRoomGood = EndRoomWin;
+		room_goto(endRoomGood);
+	}
 }

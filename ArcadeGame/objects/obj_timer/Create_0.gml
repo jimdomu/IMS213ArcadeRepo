@@ -6,3 +6,5 @@ time_left = 25;
 /*
 alarm[0] = room_speed * 1;
 */
+
+audio_play_sound(snd_game_theme, 1, true);
