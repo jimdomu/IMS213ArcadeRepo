@@ -11,14 +11,16 @@ for (var i = 0; i < array_length(x_loc); i+=1){
 	if(i != 2){
 		for(var b = 0; b < array_length(y_loc); b+=1){
 			windowID = instance_create_layer(x_loc[i], y_loc[b], "Window_Layer", obj_window);
-			windowID.image_index = irandom_range(0,3);
+			windowID.image_index = irandom_range(1,3);
+			//windowID.image_index = 3;
 		}
 	}
 	else
 	{
 		for(var b = 0; b < 4; b+=1){
 			windowID = instance_create_layer(x_loc[i], y_loc[b], "Window_Layer", obj_window);
-			windowID.image_index = irandom_range(0,3);
+			windowID.image_index = irandom_range(1,3);
+			//windowID.image_index = 3;
 		}
 	}
 }
